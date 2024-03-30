@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    height: 100vh;
+}
+body {
+    background-color: rgb(223, 163, 120);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+ body #conteneur{
+  background-color: rgb(224, 215, 215);
+  border: 1px solid ;
+  border-radius: 35px;
+  width: 300px;
+  height: 570px;
+  
+}
+#conteneur #screen{
+    border: 4px solid ;
+    border-radius: 5px;
+    height: 100px;
+    width: 260px;
+    margin-left: 18px;
+    background-color: rgb(185, 219, 126);
+    
+}
+#color-skecht{
+   
+    height: 60px;
+    display: flex;
+    margin-left: 30px;
+    
+}
+#color-skecht #red{
+    width:10px ;
+    height: 60px;
+    margin-right: 3px;
+    background-color: red;
+}
+#color-skecht #yellow{
+    width:10px ;
+    margin-right: 3px;
+    height: 60px;
+    background-color: yellow;
+}
+#color-skecht #blue{
+    width:10px ;
+    height: 60px;  
+    background-color: blue;
+}
+#touch-underscreen {
+    display: grid;
+    grid-template-columns:30px 30px;
+    width: 270px;
+    display: flex;
+    justify-content: flex-end;
+}
+#touch-underscreen #efface,#touch-underscreen #renitialise{
+    border-bottom:5px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    border-top: 2px solid black;
+    width: 35px;
+    background-color: rgb(54, 53, 53);
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+
+}
+#touch-up{
+    background-color: rgb(168, 168, 168);
+    width: 260px;
+    height: 300px;
+    margin-left: 7px;
+    border-radius: 5px;
+padding-top: 10px;
+    padding-left: 25px;
+   
+  }
+
+    #touch-up #cal1,#touch-up #cal2 ,#touch-up #cal3 ,#touch-up #cal4,
+    #touch-up #cal5 ,#touch #cal6, #touch-up #cal7,#touch-up #cal8,#touch-up #cal9,#touch-up #cal10
+    , #touch-up  #cal11,#touch-up #cal12,#touch #cal13,#touch-up #cal14
+    ,#touch-up #cal15 ,#touch-up #cal16 ,#touch-up #cal17,#touch-up #cal18
+    ,#touch-up #cal19 {
+        border: 1px solid;
+        width: 45px;
+        height: 45px;
+        text-align: center;
+        align-content: center;
+        
+    
+  }
+  #touch-up #touch{
+    width: 240px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 35px 35px 35px 35px;
+    column-gap: 30px; 
+  }
+
+    
+ #conteneur #screen #larg-cara{
+    font-size: 30px;
+  }
